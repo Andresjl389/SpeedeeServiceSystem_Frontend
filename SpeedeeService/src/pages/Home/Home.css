@@ -1,0 +1,98 @@
+.home-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f9fafb;
+  }
+  
+  .home-content {
+    flex: 1;
+    overflow: auto;
+  }
+  
+  .home-header {
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .home-greeting {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  
+  .home-subtitle {
+    color: #4b5563;
+    font-size: 16px;
+  }
+  
+  .menu-button {
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .home-main {
+    padding: 24px;
+  }
+  
+  /* Stats grid */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  
+  /* Action cards grid */
+  .action-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  
+  /* Recent projects */
+  .recent-projects {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-projects-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  
+  .recent-projects-header h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .view-all-link {
+    color: #dc2626;
+    font-weight: 500;
+    text-decoration: none;
+    transition: text-decoration 0.2s ease;
+  }
+  
+  .view-all-link:hover {
+    text-decoration: underline;
+  }
+  

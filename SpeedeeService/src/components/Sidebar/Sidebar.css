@@ -1,0 +1,41 @@
+.sidebar {
+    width: 256px;
+    background-color: #f3f4f6;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+  
+  .sidebar-logo {
+    width: 40px;
+    height: 40px;
+    background-color: #b91c1c;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebar-logo-text {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .sidebar-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .sidebar-nav {
+    flex: 1;
+  }
+  

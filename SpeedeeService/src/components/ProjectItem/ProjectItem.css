@@ -1,0 +1,38 @@
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .project-info {}
+  
+  .project-name {
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 16px;
+  }
+  
+  .project-details {
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  .project-status {
+    padding: 4px 16px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .status-completed {
+    background-color: #d1fae5;
+    color: #065f46;
+  }
+  
+  .status-pending {
+    background-color: #fef3c7;
+    color: #92400e;
+  }
+  
