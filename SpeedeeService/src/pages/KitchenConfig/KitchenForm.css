@@ -1,0 +1,107 @@
+.kitchen-page {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f9fafb;
+  }
+  
+  .kitchen-content {
+    flex: 1;
+    overflow: auto;
+  }
+  
+  .kitchen-header {
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .kitchen-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .kitchen-header p {
+    color: #6b7280;
+    font-size: 14px;
+  }
+  
+  .kitchen-main {
+    padding: 24px;
+  }
+  
+  .kitchen-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .kitchen-section {
+    margin-bottom: 32px;
+  }
+  
+  .kitchen-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #f3f4f6;
+  }
+  
+  .kitchen-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  
+  .kitchen-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .kitchen-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .kitchen-btn-cancel {
+    border: 1px solid #d1d5db;
+    background-color: white;
+    color: #374151;
+  }
+  
+  .kitchen-btn-cancel:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .kitchen-btn-submit {
+    border: none;
+    background-color: #b91c1c;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .kitchen-btn-submit:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+  }
+  
+  .kitchen-btn-submit:hover:not(:disabled) {
+    background-color: #991b1b;
+  }
+  
